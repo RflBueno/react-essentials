@@ -1,0 +1,13 @@
+{
+  "name": "react-essentials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RflBueno/react-essentials.git",
+  "author": "rafael bueno <rafael.bueno.c@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2"
+  }
+}
