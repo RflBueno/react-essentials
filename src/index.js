@@ -1,3 +1,9 @@
-const user = {}
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-console.log(user?.address?.street)
+ReactDOM.render(
+    <h1 id="title">
+        <span>Ola mundo</span>
+    </h1>,
+    document.getElementById('root')
+);
