@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-ReactDOM.render(
-    <h1 id="title">
-        <span>Ola mundo</span>
-    </h1>,
-    document.getElementById('root')
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <h1 id="title">
+    <span>HOLA LASCADO</span>
+  </h1>
 );
